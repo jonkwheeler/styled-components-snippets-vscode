@@ -17,5 +17,7 @@
                 "path": "./snippets/snippets.json"
             }
         ]
-    }
+    },
+    "repository": "https://github.com/jonkwheeler/styled-components-snippets-vscode",
+    "license": "MIT"
 }

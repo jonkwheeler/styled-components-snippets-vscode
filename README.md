@@ -25,6 +25,8 @@ I'll add to this over time. Submit PR's if you like.
 | `scext` | `const Extended${1} = ${1}.extends` / Styled-Component extends |
 | `exscext` | `export const Extended${1} = ${1}.extends` / Export styled-component extends |
 | `scf` | Add both 'imsc' and 'sc' to a new styles.js file |
+| `scattrs` | `const ${1} = styled.${2}.attrs({ ${3}: ${4} })${5}` / Styled-Component with attributes |
+| `exscattrs` | `export const ${1} = styled.${2}.attrs({ ${3}: ${4} })${5}` / Export styled-component with attributes |
 
 ### Misc
 | Prefix | Example Output / Description |
