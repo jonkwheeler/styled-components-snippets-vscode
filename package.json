@@ -1,0 +1,21 @@
+{
+    "name": "styled-components-snippets",
+    "displayName": "styled-components-snippets",
+    "description": "Styled-Components Snippets for VSCode",
+    "version": "0.0.1",
+    "publisher": "jonkwheeler",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
