@@ -2,7 +2,7 @@
 	"name": "styled-components-snippets",
 	"displayName": "styled-components-snippets",
 	"description": "Styled-Components Snippets for VSCode",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"publisher": "jonkwheeler",
 	"engines": {
 		"vscode": "^1.17.0"
