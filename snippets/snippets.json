@@ -42,7 +42,7 @@
 	"Styled-Components file": {
 		"prefix": "scf",
 		"body":
-			"import styled from 'styled-components';\n\nexport const ${1} = styled.${2}`\n  ${3}\n`;",
+			"import styled from 'styled-components';\n\nconst ${1} = styled.${2}`\n  ${3}\n`;\n\nexport default ${1};",
 		"description": "Styled-Components file"
 	},
 	"innerRef (shorthand)": {
