@@ -91,5 +91,15 @@
 		"body":
 			"export const ${1} = styled.${2}.attrs({\n  ${3}: ${4}\n})`\n  ${5}\n`;",
 		"description": "Export styled-component with attributes"
+	},
+	"Use props.theme inside styled-component": {
+		"prefix": "scpt",
+		"body": "${({ theme }) => theme.${1}};",
+		"description": "Use props.theme inside styled-component"
+	},
+	"Use props inside styled-component": {
+		"prefix": "scp",
+		"body": "${props => props.${1}};",
+		"description": "Use props inside styled-component"
 	}
 }
