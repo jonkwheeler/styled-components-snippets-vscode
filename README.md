@@ -8,26 +8,27 @@ I'll add to this over time. Submit PR's if you like. Tag me on them.
 
 ### Imports
 
-| Prefix  | Output                                              |
-| ------- | --------------------------------------------------- |
-| `imsc`  | `import styled from 'styled-components';`           |
-| `imscn` | `import styled from 'styled-components/native';`    |
-| `imscg` | `import { injectGlobal } from 'styled-components';` |
-| `imsct` | `import { withTheme } from 'styled-components';`    |
+| Prefix    | Output                                                   |
+| --------- | -------------------------------------------------------- |
+| `imsc`    | `import styled from 'styled-components';`                |
+| `imscn`   | `import styled from 'styled-components/native';`         |
+| `imscg`   | `import { createGlobalStyle } from 'styled-components';` |
+| `imscccs` | `import { css } from 'styled-components';`               |
+| `imsct`   | `import { withTheme } from 'styled-components';`         |
 
 ### Creation
 
-| Prefix      | Example Output / Description                                                                          |
-| ----------- | ----------------------------------------------------------------------------------------------------- |
-| `sc`        | `const ${1} = styled.${2}` / Styled-Component                                                         |
-| `exsc`      | `export const ${1} = styled.${2}` / Export styled-component                                           |
-| `scc`       | `const Styled${1} = styled(${1})` / Styled-Component from existing component                          |
-| `exscc`     | `export const Styled${1} = styled(${1})` / Export styled-component from existing component            |
-| `scext`     | `const Extended${1} = ${1}.extends` / Styled-Component extends                                        |
-| `exscext`   | `export const Extended${1} = ${1}.extends` / Export styled-component extends                          |
-| `scf`       | Add both 'imsc' and 'sc' to a new styles.js file                                                      |
-| `scattrs`   | `const ${1} = styled.${2}.attrs({ ${3}: ${4} })${5}` / Styled-Component with attributes               |
-| `exscattrs` | `export const ${1} = styled.${2}.attrs({ ${3}: ${4} })${5}` / Export styled-component with attributes |
+| Prefix      | Example Output / Description                                                                                |
+| ----------- | ----------------------------------------------------------------------------------------------------------- |
+| `sc`        | `const Styled${1} = styled.${2}` / Styled-Component                                                         |
+| `exsc`      | `export const Styled${1} = styled.${2}` / Export styled-component                                           |
+| `scc`       | `const Styled${1} = styled(${1})` / Styled-Component from existing component                                |
+| `exscc`     | `export const Styled${1} = styled(${1})` / Export styled-component from existing component                  |
+| `scg`       | `const Global${1} = createGlobalStyle` / Styled-Component                                                   |
+| `exscg`     | `export const Global${1} = createGlobalStyle` / Export styled-component                                     |
+| `scf`       | Add both 'imsc' and 'sc' to a new styles.js file                                                            |
+| `scattrs`   | `const Styled${1} = styled.${2}.attrs({ ${3}: ${4} })${5}` / Styled-Component with attributes               |
+| `exscattrs` | `export const Styled${1} = styled.${2}.attrs({ ${3}: ${4} })${5}` / Export styled-component with attributes |
 
 ### Props
 
@@ -40,15 +41,12 @@ I'll add to this over time. Submit PR's if you like. Tag me on them.
 
 | Prefix          | Example Output / Description                                            |
 | --------------- | ----------------------------------------------------------------------- |
-| `inr`           | `innerRef={x => this.${1} = x}` / shorthand                             |
-| `innerRef`      | `innerRef={x => this.${1} = x}` / longhand                              |
-| `injectGlobal`  | `injectGlobal` / Create injectGlobal var                                |
 | `ThemeProvider` | `<ThemeProvider theme={${1}}> ${2} </ThemeProvider>`                    |
 | `sct`           | `const theme = { ${1}: '${2}' }` / Create styled-component theme object |
 
 ###### The MIT License
 
-Copyright (c) 2018 @jonkwheeler
+Copyright (c) 2019 @jonkwheeler
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

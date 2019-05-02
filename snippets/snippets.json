@@ -9,10 +9,15 @@
 		"body": "import styled from 'styled-components/native';",
 		"description": "import styled from 'styled-components/native'"
 	},
-	"import { injectGlobal } from 'styled-components'": {
+	"import { createGlobalStyle } from 'styled-components'": {
 		"prefix": "imscg",
-		"body": "import { injectGlobal } from 'styled-components';",
-		"description": "import { injectGlobal } from 'styled-components'"
+		"body": "import { createGlobalStyle } from 'styled-components';",
+		"description": "import { createGlobalStyle } from 'styled-components'"
+	},
+	"import { css } from 'styled-components'": {
+		"prefix": "imsccss",
+		"body": "import { css } from 'styled-components';",
+		"description": "import { css } from 'styled-components'"
 	},
 	"import { withTheme } from 'styled-components'": {
 		"prefix": "imsct",
@@ -21,13 +26,23 @@
 	},
 	"Styled-Component": {
 		"prefix": "sc",
-		"body": "const ${1} = styled.${2}`\n  ${3}\n`;",
+		"body": "const Styled${1} = styled.${2}`\n  ${3}\n`;",
 		"description": "Styled-Component"
 	},
 	"Export styled-component": {
 		"prefix": "exsc",
-		"body": "export const ${1} = styled.${2}`\n  ${3}\n`;",
+		"body": "export const Styled${1} = styled.${2}`\n  ${3}\n`;",
 		"description": "Export styled-component"
+	},
+	"createGlobalStyle": {
+		"prefix": "scg",
+		"body": "const Global${1} = createGlobalStyle`\n  ${2}\n`;",
+		"description": "createGlobalStyle"
+	},
+	"Export createGlobalStyle": {
+		"prefix": "exscg",
+		"body": "export const Global${1} = createGlobalStyle`\n  ${2}\n`;",
+		"description": "Export createGlobalStyle"
 	},
 	"Styled-Component from existing component": {
 		"prefix": "scc",
@@ -42,28 +57,8 @@
 	"Styled-Components file": {
 		"prefix": "scf",
 		"body":
-			"import styled from 'styled-components';\n\nconst ${1} = styled.${2}`\n  ${3}\n`;\n\nexport default ${1};",
+			"import styled from 'styled-components';\n\nconst Styled${1} = styled.${2}`\n  ${3}\n`;\n\nexport default ${1};",
 		"description": "Styled-Components file"
-	},
-	"innerRef (shorthand)": {
-		"prefix": "inr",
-		"body": "innerRef={x => this.${1} = x}",
-		"description": "innerRef (shorthand)"
-	},
-	"innerRef": {
-		"prefix": "innerRef",
-		"body": "innerRef={x => this.${1} = x}",
-		"description": "innerRef"
-	},
-	"styled-component extends": {
-		"prefix": "scext",
-		"body": "const Extended${1} = ${1}.extends`\n  ${2}\n`;",
-		"description": "styled-component extends"
-	},
-	"Export styled-component extends": {
-		"prefix": "exscext",
-		"body": "export const Extended${1} = ${1}.extends`\n  ${2}\n`;",
-		"description": "Export styled-component extends"
 	},
 	"ThemeProvider": {
 		"prefix": "ThemeProvider",
@@ -76,20 +71,15 @@
 			"// Define what props.theme will look like\nconst theme = {\n  ${1}: '${2}'\n};",
 		"description": "styled-component theme"
 	},
-	"injectGlobal": {
-		"prefix": "injectGlobal",
-		"body": "injectGlobal`\n  ${1}\n`;",
-		"description": "injectGlobal"
-	},
 	"Styled-Component with attributes": {
 		"prefix": "scattrs",
-		"body": "const ${1} = styled.${2}.attrs({\n  ${3}: ${4}\n})`\n  ${5}\n`;",
+		"body": "const Styled${1} = styled.${2}.attrs({\n  ${3}: ${4}\n})`\n  ${5}\n`;",
 		"description": "Styled-Component with attributes"
 	},
 	"Export styled-component with attributes": {
 		"prefix": "exscattrs",
 		"body":
-			"export const ${1} = styled.${2}.attrs({\n  ${3}: ${4}\n})`\n  ${5}\n`;",
+			"export const Styled${1} = styled.${2}.attrs({\n  ${3}: ${4}\n})`\n  ${5}\n`;",
 		"description": "Export styled-component with attributes"
 	},
 	"Use props.theme inside styled-component": {
