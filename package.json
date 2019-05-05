@@ -6,7 +6,7 @@
   "version": "0.1.7",
   "publisher": "jonkwheeler",
   "engines": {
-    "vscode": "^1.17.0"
+    "vscode": "^1.18.0"
   },
   "categories": [
     "Snippets"
