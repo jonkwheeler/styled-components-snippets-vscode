@@ -2,7 +2,7 @@
   "name": "styled-components-snippets",
   "displayName": "styled-components-snippets",
   "description": "Styled-Components Snippets for VSCode",
-  "icon": "https://i.imgur.com/n75u46W.png",
+  "icon": "images/sc-snippets-icon.png",
   "version": "0.1.7",
   "publisher": "jonkwheeler",
   "engines": {
