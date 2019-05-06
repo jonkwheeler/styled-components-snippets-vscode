@@ -31,11 +31,15 @@
       },
       {
         "language": "styled-css",
-        "path": "./snippets/snippets.json."
+        "path": "./snippets/css.snippets.json."
       },
       {
         "language": "css",
-        "path": "./snippets/snippets.json."
+        "path": "./snippets/css.snippets.json."
+      },
+      {
+        "language": "source.css.styled",
+        "path": "./snippets/css.snippets.json."
       }
     ]
   },

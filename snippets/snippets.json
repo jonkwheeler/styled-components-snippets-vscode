@@ -1,113 +1,85 @@
 {
 	"import styled from 'styled-components'": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "imsc",
 		"body": "import styled from 'styled-components';",
 		"description": "import styled from 'styled-components'"
 	},
 	"import styled from 'styled-components/native'": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "imscn",
 		"body": "import styled from 'styled-components/native';",
 		"description": "import styled from 'styled-components/native'"
 	},
 	"import { createGlobalStyle } from 'styled-components'": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "imscg",
 		"body": "import { createGlobalStyle } from 'styled-components';",
 		"description": "import { createGlobalStyle } from 'styled-components'"
 	},
 	"import { css } from 'styled-components'": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "imsccss",
 		"body": "import { css } from 'styled-components';",
 		"description": "import { css } from 'styled-components'"
 	},
 	"import { withTheme } from 'styled-components'": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "imsct",
 		"body": "import { withTheme } from 'styled-components';",
 		"description": "import { withTheme } from 'styled-components'"
 	},
 	"Styled-Component": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "sc",
 		"body": "const Styled${1} = styled.${2}`\n  ${3}\n`;",
 		"description": "Styled-Component"
 	},
 	"Export styled-component": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "exsc",
 		"body": "export const Styled${1} = styled.${2}`\n  ${3}\n`;",
 		"description": "Export styled-component"
 	},
 	"createGlobalStyle": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "scg",
 		"body": "const Global${1} = createGlobalStyle`\n  ${2}\n`;",
 		"description": "createGlobalStyle"
 	},
 	"Export createGlobalStyle": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "exscg",
 		"body": "export const Global${1} = createGlobalStyle`\n  ${2}\n`;",
 		"description": "Export createGlobalStyle"
 	},
 	"Styled-Component from existing component": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "scc",
 		"body": "const Styled${1} = styled(${1})`\n  ${2}\n`;",
 		"description": "Styled-Component from existing component"
 	},
 	"Export styled-component from existing component": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "exscc",
 		"body": "export const Styled${1} = styled(${1})`\n  ${2}\n`;",
 		"description": "Export styled-component from existing component"
 	},
 	"Styled-Components file": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "scf",
 		"body":
 			"import styled from 'styled-components';\n\nconst Styled${1} = styled.${2}`\n  ${3}\n`;\n\nexport default ${1};",
 		"description": "Styled-Components file"
 	},
 	"ThemeProvider": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "ThemeProvider",
 		"body": "<ThemeProvider theme={${1}}>\n  ${2}\n</ThemeProvider>",
 		"description": "ThemeProvider"
 	},
 	"styled-component theme": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "sct",
 		"body":
 			"// Define what props.theme will look like\nconst theme = {\n  ${1}: '${2}'\n};",
 		"description": "styled-component theme"
 	},
 	"Styled-Component with attributes": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "scattrs",
 		"body": "const Styled${1} = styled.${2}.attrs({\n  ${3}: ${4}\n})`\n  ${5}\n`;",
 		"description": "Styled-Component with attributes"
 	},
 	"Export styled-component with attributes": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
 		"prefix": "exscattrs",
 		"body":
 			"export const Styled${1} = styled.${2}.attrs({\n  ${3}: ${4}\n})`\n  ${5}\n`;",
 		"description": "Export styled-component with attributes"
 	},
-	"Use props.theme inside styled-component": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
-		"prefix": "scpt",
-		"body": "${({ theme }) => theme.${1}};",
-		"description": "Use props.theme inside styled-component"
-	},
-	"Use props inside styled-component": {
-		"scope": "javascript,typescript,styled-css,javascriptreact,typescriptreact,css",
-		"prefix": "scp",
-		"body": "${props => props.${1}};",
-		"description": "Use props inside styled-component"
-	}
 }
