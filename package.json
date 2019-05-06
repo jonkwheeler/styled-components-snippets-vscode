@@ -3,7 +3,7 @@
   "displayName": "styled-components-snippets",
   "description": "Styled-Components Snippets for VSCode",
   "icon": "images/sc-snippets-icon.png",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "publisher": "jonkwheeler",
   "engines": {
     "vscode": "^1.17.0"
@@ -42,15 +42,7 @@
       },
       {
         "language": "css",
-        "path": "./snippets/css.snippets.json."
-      },
-      {
-        "language": "scss",
-        "path": "./snippets/css.snippets.json."
-      },
-      {
-        "language": "less",
-        "path": "./snippets/css.snippets.json."
+        "path": "./snippets/css.snippets.json"
       }
     ]
   },
