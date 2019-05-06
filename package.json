@@ -3,7 +3,7 @@
   "displayName": "styled-components-snippets",
   "description": "Styled-Components Snippets for VSCode",
   "icon": "images/sc-snippets-icon.png",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "publisher": "jonkwheeler",
   "engines": {
     "vscode": "^1.17.0"
