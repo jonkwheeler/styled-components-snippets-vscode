@@ -11,6 +11,13 @@
   "categories": [
     "Snippets"
   ],
+  "keywords": [
+    "styled-components",
+    "styled components",
+    "css-in-js",
+    "snippets",
+    "javascript"
+  ],
   "contributes": {
     "snippets": [
       {
@@ -30,15 +37,11 @@
         "path": "./snippets/snippets.json"
       },
       {
-        "language": "styled-css",
-        "path": "./snippets/css.snippets.json."
+        "language": "jsx",
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "css",
-        "path": "./snippets/css.snippets.json."
-      },
-      {
-        "language": "source.css.styled",
         "path": "./snippets/css.snippets.json."
       }
     ]
