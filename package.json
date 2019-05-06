@@ -3,13 +3,20 @@
   "displayName": "styled-components-snippets",
   "description": "Styled-Components Snippets for VSCode",
   "icon": "images/sc-snippets-icon.png",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "publisher": "jonkwheeler",
   "engines": {
     "vscode": "^1.17.0"
   },
   "categories": [
     "Snippets"
+  ],
+  "activationEvents": [
+    "onLanguage:styled-css",
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact"
   ],
   "contributes": {
     "snippets": [
