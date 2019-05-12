@@ -1,5 +1,7 @@
 # Styled-Components Snippets for VSCode
 
+Download the VSCode Extension here. - https://marketplace.visualstudio.com/items?itemName=jonkwheeler.styled-components-snippets
+
 View the [Styled-Components documentation](https://www.styled-components.com/docs) here.
 
 I'll add to this over time. Submit PR's if you like. Tag me on them.
