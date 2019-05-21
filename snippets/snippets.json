@@ -26,12 +26,12 @@
 	},
 	"Styled-Component": {
 		"prefix": "sc",
-		"body": "const Styled${1} = styled.${2}`\n  ${3}\n`;",
+		"body": "const ${1} = styled.${2}`\n  ${3}\n`;",
 		"description": "Styled-Component"
 	},
 	"Export styled-component": {
 		"prefix": "exsc",
-		"body": "export const Styled${1} = styled.${2}`\n  ${3}\n`;",
+		"body": "export const ${1} = styled.${2}`\n  ${3}\n`;",
 		"description": "Export styled-component"
 	},
 	"createGlobalStyle": {
@@ -46,18 +46,18 @@
 	},
 	"Styled-Component from existing component": {
 		"prefix": "scc",
-		"body": "const Styled${1} = styled(${1})`\n  ${2}\n`;",
+		"body": "const ${1} = styled(${1})`\n  ${2}\n`;",
 		"description": "Styled-Component from existing component"
 	},
 	"Export styled-component from existing component": {
 		"prefix": "exscc",
-		"body": "export const Styled${1} = styled(${1})`\n  ${2}\n`;",
+		"body": "export const ${1} = styled(${1})`\n  ${2}\n`;",
 		"description": "Export styled-component from existing component"
 	},
 	"Styled-Components file": {
 		"prefix": "scf",
 		"body":
-			"import styled from 'styled-components';\n\nconst Styled${1} = styled.${2}`\n  ${3}\n`;\n\nexport default ${1};",
+			"import styled from 'styled-components';\n\nconst ${1} = styled.${2}`\n  ${3}\n`;\n\nexport default ${1};",
 		"description": "Styled-Components file"
 	},
 	"ThemeProvider": {
@@ -73,13 +73,13 @@
 	},
 	"Styled-Component with attributes": {
 		"prefix": "scattrs",
-		"body": "const Styled${1} = styled.${2}.attrs({\n  ${3}: ${4}\n})`\n  ${5}\n`;",
+		"body": "const ${1} = styled.${2}.attrs({\n  ${3}: ${4}\n})`\n  ${5}\n`;",
 		"description": "Styled-Component with attributes"
 	},
 	"Export styled-component with attributes": {
 		"prefix": "exscattrs",
 		"body":
-			"export const Styled${1} = styled.${2}.attrs({\n  ${3}: ${4}\n})`\n  ${5}\n`;",
+			"export const ${1} = styled.${2}.attrs({\n  ${3}: ${4}\n})`\n  ${5}\n`;",
 		"description": "Export styled-component with attributes"
 	},
 	"Use props.theme inside styled-component": {
