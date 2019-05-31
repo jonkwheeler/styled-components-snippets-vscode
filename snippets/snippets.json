@@ -46,12 +46,12 @@
 	},
 	"Styled-Component from existing component": {
 		"prefix": "scc",
-		"body": "const ${1} = styled(${1})`\n  ${2}\n`;",
+		"body": "const ${1} = styled(${2})`\n  ${3}\n`;",
 		"description": "Styled-Component from existing component"
 	},
 	"Export styled-component from existing component": {
 		"prefix": "exscc",
-		"body": "export const ${1} = styled(${1})`\n  ${2}\n`;",
+		"body": "export const ${1} = styled(${2})`\n  ${3}\n`;",
 		"description": "Export styled-component from existing component"
 	},
 	"Styled-Components file": {
