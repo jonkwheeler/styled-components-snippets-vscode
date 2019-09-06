@@ -15,7 +15,7 @@ I'll add to this over time. Submit PR's if you like. Tag me on them.
 | `imsc`    | `import styled from 'styled-components';`                |
 | `imscn`   | `import styled from 'styled-components/native';`         |
 | `imscg`   | `import { createGlobalStyle } from 'styled-components';` |
-| `imscccs` | `import { css } from 'styled-components';`               |
+| `imsccss` | `import { css } from 'styled-components';`               |
 | `imsct`   | `import { withTheme } from 'styled-components';`         |
 
 ### Creation
