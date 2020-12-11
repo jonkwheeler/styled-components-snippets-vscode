@@ -91,5 +91,10 @@
 		"prefix": "scp",
 		"body": "${props => props.$1};",
 		"description": "Use props inside styled-component"
+	},
+	"Use props inside styled-component (destructured)": {
+		"prefix": "scpd",
+		"body": "${({ ${1} }) => ${2}};",
+		"description": "Use props inside styled-component"
 	}
 }
